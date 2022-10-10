@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "./server/proto";
+
+// service calculator {
+//     rpc PlusTwoInt(PlusTwoIntRequest) returns (PlusTwoIntResponse) {}
+// }
+
+// message PlusTwoIntRequest {
+//     int64 x = 1;
+//     int64 y = 2;
+// }
+
+message PlusTwoIntResult {
+    int64 x = 1;
+    int64 y = 2;
+    int64 z = 3;
+}
